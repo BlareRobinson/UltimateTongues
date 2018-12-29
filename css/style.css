@@ -1,9 +1,4 @@
 /*slideshow*/
-.container {
-  width: 100vw;
-  height: 100vh
-}
-
 
 .col {
   display: -webkit-flex;
@@ -14,8 +9,22 @@
   align-content: center;
 }
 
+/*UT ANIMAL*/
 
+.img-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
 
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 
 /*about me*/
 
@@ -31,7 +40,7 @@
 .about-container {
   margin: 0 auto;
   width: 50%;
-  border: 3px solid #e3f2fd;;
+  border: 8px solid #e3f2fd;;
   padding: 10px;
 }
 
@@ -41,6 +50,33 @@
   font-family: "Courier New", "Lucida Console", monospace;
 }
 
+
+/*ss.html*/
+
+.ss {
+  text-align: center;
+}
+
+.ss-container {
+  text-align: center;
+}
+.align-left {
+  margin: 0 15px 15px 15px;
+  height: 400px;
+  width: 400px;
+}
+
+.align-center {
+  margin: 0 15px 15px 15px;
+  height: 400px;
+  width: 400px;
+}
+
+.align-right {
+  margin: 0 15px 15px 15px;
+  height: 400px;
+  width: 400px;
+}
 
 
 // Small devices (landscape phones, 576px and up)
